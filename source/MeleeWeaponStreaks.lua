@@ -124,6 +124,4 @@ pedRenderHook = hook.new(
     cast('uintptr_t', cast('void*', gta._ZN4CPed6RenderEv))
 )
 
-function main()
-    while true do wait(0) end
-end
+function main() wait(-1) end

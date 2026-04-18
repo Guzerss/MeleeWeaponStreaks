@@ -3,9 +3,6 @@ local hook = require('monethook')
 local mem  = require('SAMemory')
 local cfg  = require('jsoncfg')
 
-mem.require('CPed')
-mem.require('CWeapon')
-
 local cast = ffi.cast
 local gta  = ffi.load('GTASA')
 

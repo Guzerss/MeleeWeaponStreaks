@@ -1,6 +1,5 @@
 local ffi  = require('ffi')
 local hook = require('monethook')
-local mem  = require('SAMemory')
 local cfg  = require('jsoncfg')
 
 local cast = ffi.cast
